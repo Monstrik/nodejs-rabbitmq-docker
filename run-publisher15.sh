@@ -1,0 +1,1 @@
+docker-compose exec consumer /bin/bash -c 'for ((i=1;i<=15;i++)); do node publisher.js; done'
